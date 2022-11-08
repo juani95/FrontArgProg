@@ -1,0 +1,18 @@
+<div class="exterior">
+  <div class="contenedor">
+    <h2>Login</h2>
+    <form #f="ngForm" (ngSubmit)="onLogin()" novalidate id="forma" name="forma" method="post"> 
+        <div class="elemento">
+            <label for="nombreUsuario">Usuario:</label>
+            <input type="text" id="nombreUsuario" name="nombreUsuario" required="true"[(ngModel)]="nombreUsuario" />
+        </div>
+        <div class="elemento">
+            <label for="password">Contraseña:</label>
+            <input type="text" id="password" name="password" required="true" [(ngModel)]="password"/>
+        </div>
+        <div class="elemento">
+            <input type="submit" value="Enviar" />
+        </div>
+    </form>
+  </div>
+</div>

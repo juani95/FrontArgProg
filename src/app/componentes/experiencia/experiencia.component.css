@@ -1,0 +1,19 @@
+.body{
+    background-color: #B9A997;
+}
+.estudiante{
+    font-size: 30px;
+}
+.cursos{
+    font-size: 23px;
+}
+.title{
+    text-align: center;
+}
+.row{
+    padding: 20px;
+}
+
+h6{
+    margin-top: 5px;
+}

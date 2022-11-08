@@ -1,0 +1,36 @@
+.body{
+    background-color: #B9A997;
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mail{
+    width: 30px;
+    height: 30px;
+}
+
+.contact{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.gmail{
+    display: inline-block;
+}
+
+.hotmail{
+    margin: 15px;
+    display: inline-block;
+}
+
+svg{
+    margin:10px;
+}
+
+img{
+    margin-right:10px;
+}
